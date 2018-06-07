@@ -7,7 +7,7 @@ name : Time Gold
 
 composer install
 
-#IDEs Integration
+# IDEs Integration
 
 Visual Studio Code via the TWIG Pack.
 

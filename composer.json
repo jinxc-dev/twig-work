@@ -1,0 +1,13 @@
+{
+    "name": "twig-work",
+    "description": "This is twig work for study",
+    "authors": [
+        {
+            "name" : "Time Gold",
+            "email": "timeisgold814@outlook.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}

@@ -18,3 +18,12 @@ Hello, {{ name }}! You are {{ age }} years old.
 {% filter upper %}
     This text becomes uppercase
 {% endfilter %}
+
+
+<h1>Members</h1>
+<ul>
+    {% for i in range(low=1, high=10, step=2) %}
+        <li>{{ i|e }} Test</li>
+    {% endfor %}
+</ul>
+

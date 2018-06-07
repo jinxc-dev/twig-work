@@ -1,0 +1,9 @@
+
+{% from 'forms.macro.twig' import input as input_field %}
+
+<dl>
+    <dt>Username</dt>
+    <dd>{{ input_field('username') }}</dd>
+    <dt>Password</dt>
+    <dd>{{ input_field('password', '', 'password') }}</dd>
+</dl>
